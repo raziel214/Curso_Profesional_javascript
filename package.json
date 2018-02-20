@@ -2,7 +2,7 @@
   "name": "platzigram",
   "version": "0.1.0",
   "description": "Comparte tus fotos estudiando con el resto de la comunidad",
-  "main": "platzigram.js",
+  "main": "index.js",
   "keywords": [
     "platzi",
     "javascript",
@@ -12,14 +12,30 @@
   "author": "JFQO",
   "license": "MIT",
   "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
     "express": "^4.16.2",
     "materialize-css": "^0.100.2",
     "pug": "^2.0.0-rc.4",
     "rename": "^1.0.4"
   },
   "devDependencies": {
+    "babelify": "^8.0.0",
+    "browserify": "^16.1.0",
     "gulp": "^3.9.1",
+    "gulp-install": "^1.1.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0"
-  }
+    "gulp-sass": "^3.1.0",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raziel214/Curso_Profesional_javascript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/raziel214/Curso_Profesional_javascript/issues"
+  },
+  "homepage": "https://github.com/raziel214/Curso_Profesional_javascript#readme"
 }
